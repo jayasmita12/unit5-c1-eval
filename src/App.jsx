@@ -17,7 +17,7 @@ function App() {
 
   const [score,setScore]=useState(76);
   const [wicket,setWicket]=useState(2);
-  const [ball,setBall]=useState(50/10)
+  const [ball,setBall]=useState(50)
   // const[over,setOver]=useState()
   
   const count=(n)=>{
@@ -95,7 +95,7 @@ function App() {
 
       {/* If score reaches greater than 100, show text "India Won" without quotes in h1 tag with class name 'status' */}
             
-          <h1 className="status">{score>100 ? "India won":null}</h1>
+          <h1 className='status'>{score>100 ? "India won":null}</h1>
          
     </div>
   );
